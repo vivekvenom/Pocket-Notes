@@ -1,0 +1,13 @@
+.note-content-container {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+}
+
+.date-container {
+  width: 20%;
+}
+
+.text-container {
+  width: 80%;
+}
