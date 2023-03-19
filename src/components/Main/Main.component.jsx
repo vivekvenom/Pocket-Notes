@@ -18,7 +18,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
           minute: "numeric",
           hour12: "true",
         })}`,
-        date: `${new Date().getDay()} ${new Date().toLocaleString("default", {
+        date: `${new Date().getDate()} ${new Date().toLocaleString("default", {
           month: "long",
         })} ${new Date().getFullYear()}`,
       },
